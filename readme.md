@@ -46,10 +46,13 @@ surname-semifinals/
 Add some mock data in `.models/Tasks.js`, such as:
 
 ```javascript
-[
+// models/Task.js
+let task = [
   { id: 1, task: "Learn HTTP Methods", status: "Incomplete" },
   { id: 2, task: "Organize Project Structure", status: "Complete" },
 ];
+
+module.exports = items;
 ```
 
 ## Implement HTTP Methods with API Endpoints:
