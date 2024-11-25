@@ -37,13 +37,13 @@ surname-semifinals/
 ├── controllers/
 │   └── taskController.js
 ├── models/
-│   └── Tasks.js
+│   └── taskModel.js
 └── package.json
 └── .env
 └── .gitignore
 ```
 
-Add some mock data in `.models/Tasks.js`, such as:
+Add some mock data in `.models/taskModel.js`, such as:
 
 ```javascript
 // models/Task.js
@@ -52,7 +52,7 @@ let task = [
   { id: 2, task: "Organize Project Structure", status: "Complete" },
 ];
 
-module.exports = items;
+module.exports = task;
 ```
 
 ## Implement HTTP Methods with API Endpoints:
