@@ -16,7 +16,7 @@ Setup the Project:
 - Initialize the project with
 
 ```bash
-npm init -y.
+npm init -y
 ```
 
 - Install `express` , `dotenv` for .env and `nodemon` using:
